@@ -13,6 +13,7 @@ function play(question, answer) {
   } else {
     console.log('Wrong!');
   }
+  console.log(`current score: ${score}`);
   console.log('-------------------');
 }
 
